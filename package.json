@@ -1,0 +1,16 @@
+{
+  "name": "com.cat.statemachine",
+  "version": "1.0.0",
+  "displayName": "_StateMachine",
+  "description": "This package contains implementation of State Machine logic. \nIt helps to maintain projct logic in a clean and organized way. \nBeside the State Machine logic, it also contains some services that can be used in any project, like (SceneLoader,SplashScreen, LoadingProgressTracking, etc).",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "dependencies": {
+    "com.unity.addressables": "1.21.8",
+    "com.unity.nuget.newtonsoft-json": "3.0.2"
+  },
+  "author": {
+    "name": "cat",
+    "email": "cat.ursu30@gmail.com"
+  }
+}
