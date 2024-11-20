@@ -7,10 +7,8 @@ public class CameraService : IServiceCamera
 {
     Camera _mainCamera; 
     UniversalAdditionalCameraData _cameraData;
-    readonly Dictionary<string, Camera> _cachedCameras;
-    
-    public CameraService() => _cachedCameras = new Dictionary<string, Camera>();
-    
+    readonly Dictionary<string, Camera> _cachedCameras = new();
+
     public void RegisterMainCamera(Camera camera)
     {
         if (_mainCamera != null) return;
