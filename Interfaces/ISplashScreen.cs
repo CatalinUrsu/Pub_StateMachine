@@ -2,9 +2,9 @@ using Cysharp.Threading.Tasks;
 
 namespace StateMachine
 {
-public interface ISplashScreen
+public interface ISplashScreen<T> where T : ISplashScreenInfo
 {
-    public UniTask ShowPanel(bool skipAnimation = false);
+    public UniTask ShowPanel(T config);
     public UniTask HidePanel();
 }
 }
